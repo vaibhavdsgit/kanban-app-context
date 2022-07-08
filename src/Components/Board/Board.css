@@ -1,0 +1,26 @@
+.board{
+    min-width: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    /* gap: 10px; */
+}
+.board-top{
+    display: flex;
+    text-align: center;
+}
+.board-top-title{
+    flex: 1;
+    color: blue;
+    
+}
+.board-cards{
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 5px;
+}
